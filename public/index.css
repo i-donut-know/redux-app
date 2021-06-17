@@ -1,4 +1,4 @@
-.root {
+#root {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -53,8 +53,8 @@
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.25))
 }
 
-.btn#inc {background: #089C20;}
+.btn.plus {background: #089C20;}
 
-.btn#dec{background: #E7AA10;}
+.btn.minus {background: #E7AA10;}
 
-.btn#reset{background: #CF1C1C;}
+.btn.reset {background: #CF1C1C;}
